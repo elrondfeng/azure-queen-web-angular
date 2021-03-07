@@ -1,0 +1,102 @@
+<div class="container-fluid">
+  <div class="row kentucky">
+    <div class="col-sm-11">
+      <app-header></app-header>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row ">
+    <div class="col-xs-4 col-xs-offset-4">
+        <button class="btn btn-warning my-button " (click)="getCustomers()"> Get All Customers </button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <ul class="list-group list-group-flush">
+
+    <li class="list-group-item account-header">
+
+      <span class="col-sm-2">
+        <em class=""> Customer ID </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> Name Style </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> Title </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class="">First Name</em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class="">Middle Name</em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class="">Last Name</em>
+      </span>
+
+    </li>
+
+<!--    customerID: number,
+    nameStyle: string,
+    title: string,
+    firstName: string,
+    middleName: string,
+    lastName: string-->
+
+    <li class="list-group-item one-account" *ngFor="let d of cusData; let i = index">
+
+      <span class="col-sm-2">
+        <em class=""> {{d.customerID}} </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> {{d.nameStyle}} </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> {{d.title}} </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> {{d.firstName}} </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> {{d.middleName}} </em>
+      </span>
+
+      <span class="col-sm-2">
+        <em class=""> {{d.lastName}} </em>
+      </span>
+
+<!--      <span class="col-sm-2">
+        <button class="btn btn-group-lg btn-warning" [ngClass]= "{ disabled: d.testOrControlIndicator === 'T'}" (click)="addEnrollment(i)"> Enroll</button>
+      </span>
+
+      <span class="col-sm-2">
+        <button class="btn btn-group-lg btn-danger" [ngClass]= "{ disabled: d.testOrControlIndicator === 'E'}" (click)="deleteEnrollment(i)"> Un-Enroll</button>
+      </span>-->
+    </li>
+
+  </ul>
+
+</div>
+
+<div class="container-fluid">
+  <div class="row kentucky">
+    <div class="col-sm-11">
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
+

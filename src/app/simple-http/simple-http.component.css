@@ -1,0 +1,23 @@
+.row.kentucky {
+  padding: 50px;
+  border: 10px;
+}
+
+button {
+  font-size: 1.2em;
+}
+
+.one-account {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.account-header {
+  font-size:1.8em;
+  padding-bottom: 30px;
+}
+
+.my-button{
+  margin: 30px;
+  font-size: 2em;
+}

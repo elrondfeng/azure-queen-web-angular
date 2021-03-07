@@ -1,0 +1,6 @@
+{
+  "authApi": "https://cust-tst-api.duke-energy.com/cdp/oauth2/v1/token",
+  "kentuckyApi": "https://cust-tst-api.duke-energy.com/kentucky/v1",
+  "consumerKey": "AzIxdLKK50iJPYzV9tFQaSgaQqynZuBk",
+  "consumerSecret": "jHaBFxSAvIVniyru"
+}
