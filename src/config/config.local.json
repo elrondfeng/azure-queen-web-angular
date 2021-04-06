@@ -1,8 +1,0 @@
-{
-  "authApi": "https://cust-api.duke-energy.com/cdp/oauth2/v1/token",
-  "heroApi": "https://cust-api.duke-energy.com/hero/v1",
-  "userAccountApi": "https://cust-api.duke-energy.com/dxt/v1.1",
-  "preferenceCenterApi": "https://icdp.duke-energy.com",
-  "consumerKey": "3jrgHKhHGwQSjxpAQjYceZ7hP5U9gyqT",
-  "consumerSecret": "FXksqoV7innm9lsU"
-}
